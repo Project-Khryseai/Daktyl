@@ -1,0 +1,20 @@
+# --- Firmware (PlatformIO & Arduino) ---
+.pio/
+.vscode/.browse.c_cpp.globals.json
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+*.hex
+*.bin
+*.elf
+
+# --- Electronics (KiCad / EasyEDA temp files) ---
+*.bak
+*~
+*_autosave*
+*.lck
+*-backups/
+
+# --- Mechanical / OS ---
+.DS_Store
+Thumbs.db
+*.f3d.lock
